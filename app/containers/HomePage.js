@@ -1,13 +1,14 @@
+/*
+ * @Description:
+ * @Author: jinlei1@leju.com
+ * @Date: 2020-01-26 14:55:48
+ * @LastEditTime : 2020-02-07 16:14:55
+ * @LastEditors  : jinlei1@leju.com
+ * @FilePath: /electron-react/app/containers/HomePage.js
+ */
 // @flow
-import React, { Component } from 'react';
-import Home from '../components/Home';
+import React from 'react';
 
-type Props = {};
-
-export default class HomePage extends Component<Props> {
-  props: Props;
-
-  render() {
-    return <Home />;
-  }
+export default function() {
+  return <div>1231231555</div>;
 }
